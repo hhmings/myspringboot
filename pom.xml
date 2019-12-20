@@ -6,7 +6,11 @@
 
     <groupId>com.hhm</groupId>
     <artifactId>my-spring-boot</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>mybatis-tools</module>
+    </modules>
 
 
 </project>

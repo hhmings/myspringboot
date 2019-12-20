@@ -1,0 +1,32 @@
+GET http://localhost:8001/test
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-19T091347.200.json
+
+###
+
+GET http://localhost:8001/test1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-19T091308.404.json
+
+###
+
+GET http://localhost:8001/test
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-19T091056.200.json
+
+###
+
+GET http://localhost:8001/test
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-19T090735.200.txt
+
+###
+
