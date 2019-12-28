@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jsp-demo" />
         <module name="mybatistools" />
+        <module name="zk-demo" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="jsp-demo" options="-parameters" />
+      <module name="zk-demo" options="-parameters" />
     </option>
   </component>
 </project>
